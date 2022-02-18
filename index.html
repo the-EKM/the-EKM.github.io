@@ -31,7 +31,7 @@ body, html {height: 100%}
   </div>
   <div class="w3-display-bottomleft w3-container">
     <p class="w3-small">A Bartlett, UCL Doctoral Network</p>
-    <p class="w3-small"><a href="http://soundmakingspace.com/">2017-2020</a></p>
+    <p class="w3-small"><a href="http://soundmakingspace.com/">2017-2022</a></p>
   </div>
 </div>
 
@@ -41,46 +41,59 @@ body, html {height: 100%}
     <div class="w3-container w3-black w3-display-container">
       <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
 
-      <h1>5th March @17:00 GMT</h1>
+      <h1>UPCOMING EVENTS</h1>
+    </div>
+    <div class="w3-container"> 
+      <h5>   </h5>
     </div>
     <div class="w3-container">
-      <h5><b> JONATHAN TYRRELL</b></h5>
+      <h5><b>_UNDERSCORE OPERA - 5th April 2022 @18:30 BST</b></h5>
+      <p><i>UCL Here East</i></p>
+      <h5>Opera in Edwardian Baths</h5>
+      <h5><a href="https://www.eventbrite.co.uk/e/sound-making-space-presents-opera-in-edwardian-baths-tickets-271924903707">LINK</a></h5>
+    </div>
+
+    <div class="w3-container w3-black">
+      <h1>PAST EVENTS</h1>
+    </div>
+
+    <div class="w3-container">
+      <h5><b> JONATHAN TYRRELL - 5th March 2021 @17:00 GMT </b></h5>
       <p><i>Dereck Revington Studio + Philip Beesley + University of Waterloo</i></p>
       <h5>Radical Intersubjectivity: Architecture in the Expanded Sonic Field</h5>
       <h5><a href="https://www.eventbrite.co.uk/e/radical-intersubjectivity-architecture-in-the-expanded-sonic-field-tickets-138426181435/">LINK</a></h5>
     </div>
 
     <div class="w3-container w3-black">
-      <h1>19th March @17:00 GMT</h1>
+      <h5>   </h5>
     </div>
+
     <div class="w3-container">
-      <h5><b>LISA HALL</b></h5>
+      <h5><b>LISA HALL - 19th March 2021 @17:00 GMT </b></h5>
       <p><i>UAL:CRiSAP</i></p>
       <h5>Acts Of Air</h5>
       <h5><a href="https://www.eventbrite.co.uk/e/acts-of-air-tickets-138426522455">LINK</a></h5>
+ 
+    </div>
+        <div class="w3-container w3-black">
+      <h5>   </h5>
     </div>
 
-    <div class="w3-container w3-black">
-      <h1>9th April @17:00 BST</h1>
-    </div>
     <div class="w3-container">
-      <h5><b>CALUM FERREIRA</b></h5>
+      <h5><b>CALUM FERREIRA - 9th April @17:00 BST </b></h5>
       <p><i>Arup</i></p>
       <h5>Auralisations in Creative Design</h5>
       <h5><a href="https://www.eventbrite.co.uk/e/auralisations-in-creative-design-tickets-143963457577">LINK</a></h5>
     </div>
 
-    <div class="w3-container w3-black">
-      <h1>POSTPONED!</h1>
     </div>
-    <div class="w3-container">
-      <h5><b>CURATING SOUND</b></h5>
-      <p><i></i></p>
-      <h5>Details Coming Soon!</h5>
+        <div class="w3-container w3-black">
+      <h5>   </h5>
     </div>
 
   </div>
 </div>
+
 
 <!-- Contact Modal -->
 <div id="contact" class="w3-modal">
@@ -120,6 +133,26 @@ body, html {height: 100%}
   </div>
 </div>
 
+<script>
+var modalA = document.getElementById('menu');
+var modalB = document.getElementById('contact');
+var modalC = document.getElementById('info');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  //alert(event.target)
+  if (event.target == modalA) {
+        modalA.style.display = "none";
+    } 
+  if(event.target == modalB) {
+        modalB.style.display = "none";      
+     }
+  if(event.target == modalC) {
+        modalC.style.display = "none";      
+     }
+}
+</script>
+
+
 </body>
 </html>
-
